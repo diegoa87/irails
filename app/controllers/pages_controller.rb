@@ -32,7 +32,23 @@ class PagesController < ApplicationController
   end
   def mac6
   end
+  def final
+  end
 
+  def git
+  end
+  def git2
+  end
+
+  def homebrew
+  end
+  def rvm
+  end
+  def railsmac95
+  end
+  def text95
+  end
+  
   
 
 
