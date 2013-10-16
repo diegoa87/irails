@@ -2,22 +2,38 @@
 	<h3><strong>Instala Rails like a Boss!</strong></h3>
 </div>
 
-<div class="container">
-<h2> A instalar Rails!!</h2>
-	<ol  style= "font-size: 15px" >
-		<li> Ingresa a: <%= link_to 'www.railsinstaller.com', "http://www.railsinstaller.com/" %>  y elige la versión de tu Mac</li>
-		<img src="http://installrails.com/assets/railsinstaller-mac-windows-1e6684039f2d9f221d7349183560556d.jpg">
-		<li> Luego de que se ha descargado totalmente el archivo, dale doble click para abrirlo.</li>
-		<li> Dale click "Next" a todos los pasos, esta bien dejar la configuración por defecto.
-		</li>
-		<li> Cuando se te solicite,  escribe tu nombre y correo electrónico.
-(No te preocupes, nadie verá estos datos por lo que te enviaran SPAM).
-		</li>
+<div class="jumbotron" style="background-color: purple; color: white" >
+	<div class="container">
+		<h2> A instalar Rails!!</h2>
+		<ol  style= "font-size: 20px" >
+			<li> Ingresa a: <%= link_to 'www.railsinstaller.com', "http://www.railsinstaller.com/" %>  y elige la versión de tu Mac</li>
+			<img src="irails.png">
+			<li> Luego de que se ha descargado totalmente el archivo, dale doble click para abrirlo.</li>
+			<li> Dale click "Next" a todos los pasos, esta bien dejar la configuración por defecto.
+			</li>
+			<li> Cuando se te solicite,  escribe tu nombre y correo electrónico.
+				(No te preocupes, nadie verá estos datos por lo que te enviaran SPAM).
+			</li>
 
-	</ol>
+		</ol>
+		<h2>Verificar instalación</h2>
+	  
+	  <p>
+	    Anda al Terminal. Lo puedes enconcontrar abriendo Spotlight
+	    (el pequeño ícono en la parte superior derecha de tu Mac),
+	    y luego escribe 'Terminal'.
+ 	  
+	  <p>1- En el terminal, escribe:</p>
+	 <div class="well well-sm " style="color: black"> ruby --version</div>
+	  <p>2- Resultado esperado:</p>
+	  <p>ruby 1.9.0p195 (2013-05-14 revision 40734) [x86_64-darwin12.4.0]</p>
+	  <p>3- Luego, asegúrate que instalast Rails escribiendo:</p>
+	  <div class="well well-sm " style="color: black"> rails --version</div>
+	  <p>4- Resultado esperado:</p>
+	  <p>Rails 3.2</p>
+	</div>
 </div>
-
 <center>
-	<%= link_to 'Atrás', mac2_path, class: "btn btn-primary btn-lg" %>
-	<%= link_to 'Siguiente', mac4_path, class: "btn btn-primary btn-lg" %>	
+	<%= link_to 'Atrás', mac2_path, class: "btn btn-primary btn-lg " %>
+	<%= link_to 'Siguiente', mac4_path, class: "btn btn-primary btn-lg " %>	
 </center>

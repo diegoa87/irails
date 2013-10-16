@@ -1,20 +1,32 @@
 <div class="well well-sm ">
 	<h3><strong>Instala Rails like a Boss!</strong></h3>
 </div>
+<div class="jumbotron" style="background-color: brown; color: white" >
+	<div class="container">
+		<h1> Actualizar o instalar Xcode </h1>
 
-mac1
-<h1> Primero! </h1>
 
-<h2> Ingresar a App Store (la que puedes encontrar en la carpeta Aplicaciones) </h2>
+		<ol> <li> Ingresa a la App Store (la que puedes encontrar en la carpeta Aplicaciones) </li>
+			<img src="appstore.png">
+			<li> Buscar en el App Store: XCode </li>
 
-<ol> 
-<li> Buscar en el App Store XCode </li>
-<li> Instalar o actualizar XCode en la appstore </li>
-<li> Reiniciar el computador </li>
-</ol>
+			<li> Instalar o actualizar XCode en la appstore </li>
+		</ol>
+		<p>Asumiendo que XCode ha terminado de instalarse: ahora necesitas instalar "Command Line Tools" en caso de que No lo tengas, lo que harás en los siguientes dos pasos <p>
+			<ol>
 
-<center>
-	<%= link_to 'Atrás', elige_path, class: "btn btn-primary btn-lg" %>
-	<%= link_to 'Siguiente', mac2_path, class: "btn btn-primary btn-lg" %>
 
-</center>
+				<li> Abrir Xcode. En la barra menu haz click en "Xcode" luego selecciona "Preferences"</li>
+				<img src="xcode.png">
+
+				<li> Click en el botón "Instalar" al lado de “Command Line Tools”</li>
+				<li> Reiniciar el computador </li>
+			</ol>
+
+		</div>
+	</div>
+	<center>
+		<%= link_to 'Atrás', elige_path, class: "btn btn-primary btn-lg" %>
+		<%= link_to 'Siguiente', mac2_path, class: "btn btn-primary btn-lg" %>
+
+	</center>

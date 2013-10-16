@@ -1,19 +1,24 @@
 <div class="well well-sm ">
-
-	<h3><strong>Instala Rails like a Boss!</strong></h3>
-	
-
+	<h3><strong>Instala Rails like a Boss!</strong></h3>	
 </div>
 
 <center>
-	<div class="container">
-		<h1>Primero elige que tipo de sistema operativo tienes</h1>
+	<div class="jumbotron" >
+		<div class="container">
+			<h1>Primero elige que tipo de sistema operativo tienes</h1>
 
+			<div class row>
+				<div class="col-md-2 col-md-offset-4">
+					<p><img src= "win.png"></p>
+					<p>
+						<%= link_to 'Windows', win_1_path, class: "btn btn-primary btn-lg btn-block" %></p>
+					</div>
+					<div class="col-md-2 ">
+						<p><img src= "mac.png"></p>
 
-		<%= link_to 'Windows', win_1_path, class: "btn btn-primary btn-lg" %>
-
-		<%= link_to 'Mac', mac1_path, class: "btn btn-primary btn-lg" %>
-
-	</div>
-
-</center>
+						<p>	<%= link_to 'Mac', mac1_path, class: "btn btn-primary btn-lg btn-block" %> </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>

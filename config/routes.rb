@@ -14,4 +14,13 @@ Irails::Application.routes.draw do
   get 'mac4' => 'pages#mac4'
   get 'mac5' => 'pages#mac5'
   get 'mac6' => 'pages#mac6'
+
+  get 'final' => 'pages#final'
+  get 'git' => 'pages#git'
+  get 'git2' => 'pages#git2'
+  get 'homebrew' => 'pages#homebrew'
+  get 'rvm' => 'pages#rvm'
+  get 'railsmac95' => 'pages#railsmac95'
+  get 'text95' => 'pages#text95'
+
 end
