@@ -15,7 +15,7 @@ Irails::Application.routes.draw do
   get 'mac5' => 'pages#mac5'
   get 'mac6' => 'pages#mac6'
 
-  get 'final' => 'pages#final'
+  get 'final' => 'pages#finall'
   get 'git' => 'pages#git'
   get 'git2' => 'pages#git2'
   get 'homebrew' => 'pages#homebrew'
