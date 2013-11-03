@@ -33,7 +33,8 @@ class PagesController < ApplicationController
   end
   def mac6
   end
-  def final
+  def finall
+    render :layout => 'landing'
   end
 
   def git
