@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'jquery-rails', "~> 3.0.4"
 gem "jquery-ui-rails", "~> 4.0.4"
-gem 'analytics-ruby', '<1.0'
+gem 'google-analytics-rails'
 
 group :production do
   gem 'pg'

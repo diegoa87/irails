@@ -58,5 +58,10 @@ module Irails
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # replace this with your tracker code
+    GA.tracker = "UA-45443824-1"
+    
   end
+
 end
