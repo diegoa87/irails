@@ -1,28 +1,28 @@
 <div class="jumbotron" style="background-color: brown; color: white" >
 	<div class="container">
+		<h1> Actualizar o instalar Xcode </h1>
 
 
-		<h1>Ahora debemos saber que tipo de sistema operativo  OSX tienes</h1>
-		<h3> 1.-Para esto debes ir al logo de Apple (en la parte superior izquierda de la pantalla)</h3>
+		<ol> <li> Ingresa a la App Store (la que puedes encontrar en la carpeta Aplicaciones) </li>
+			<img src="appstore.png" class="img-rounded">
+			<li> Buscar en el App Store: XCode </li>
 
-		<img src="aboutmac.png">
-		<h4> El número de tu versión está debajo de OS X</h4>
-		<img src="osx.png">
-		<h3>Ahora selecciona tu versión:</h3>
+			<li> Instalar o actualizar XCode en la appstore </li>
+		</ol>
+		<p>Luego de que la instalación/actulización de XCode ha terminado debes verificar que tienes instalado el "Terminal" (lugar donde se escriben las líneas de comando). Esto lo puedes verificar buscándolo con Spotlight como "Terminal". En caso de que <strong>No</strong> lo tengas, debes seguir los siguientes tres pasos: <p>
+			
+			<ol>
+				<li> Abrir Xcode. En la barra menu haz click en "Xcode" luego selecciona "Preferences"</li>
+				<img src="xcode.png" class="img-rounded">
+
+				<li> Click en el botón "Instalar" al lado de “Command Line Tools”</li>
+				<li> Reiniciar el computador </li>
+			</ol>
+
+		</div>
 	</div>
+	<center>
+		<%= link_to 'Atrás', elige_path, class: "btn btn-primary btn-lg" %>
+		<%= link_to 'Siguiente', homebrew_path, class: "btn btn-primary btn-lg" %>
 
-</div>
-<center>
-	
-	<%= link_to '10.9', homebrew_path, class: "btn btn-primary btn-lg " %>
-	<%= link_to '10.8', mac3_path, class: "btn btn-primary btn-lg " %>
-	<%= link_to '10.7', mac3_path, class: "btn btn-primary btn-lg " %>
-	<%= link_to '10.6', mac3_path, class: "btn btn-primary btn-lg " %>
-	<%= link_to '10.5 o menor', homebrew_path, class: "btn btn-primary btn-lg " %>
-	
-</center>
-
-</div>
-
-
-
+	</center>

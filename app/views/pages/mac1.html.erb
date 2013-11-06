@@ -1,29 +1,30 @@
 <div class="jumbotron" style="background-color: brown; color: white" >
 	<div class="container">
-		<h1> Actualizar o instalar Xcode </h1>
 
 
-		<ol> <li> Ingresa a la App Store (la que puedes encontrar en la carpeta Aplicaciones) </li>
-			<img src="appstore.png">
-			<li> Buscar en el App Store: XCode </li>
+		<h1>Primero que todo debemos saber que tipo de sistema operativo  OSX tienes</h1>
+		<h3> 1.-Para esto debes ir al logo de Apple (en la parte superior izquierda de la pantalla)</h3>
 
-			<li> Instalar o actualizar XCode en la appstore </li>
-		</ol>
-		<p>Asumiendo que XCode ha terminado de instalarse: ahora necesitas instalar "Command Line Tools" en caso de que No lo tengas, lo que harás en los siguientes dos pasos <p>
-			<ol>
+		<img src="aboutmac.png" class="img-rounded">
+		<h4> <strong>Nota: </strong> El número de tu versión está debajo de OS X</h4>
+		<img src="osx.png" class="img-rounded">
 
-
-				<li> Abrir Xcode. En la barra menu haz click en "Xcode" luego selecciona "Preferences"</li>
-				<img src="xcode.png">
-
-				<li> Click en el botón "Instalar" al lado de “Command Line Tools”</li>
-				<li> Reiniciar el computador </li>
-			</ol>
-
-		</div>
 	</div>
-	<center>
-		<%= link_to 'Atrás', elige_path, class: "btn btn-primary btn-lg" %>
-		<%= link_to 'Siguiente', mac2_path, class: "btn btn-primary btn-lg" %>
 
-	</center>
+</div>
+<center>
+
+		<h3>Ahora selecciona tu versión:</h3>
+		
+	<%= link_to '10.9', mac2_path, class: "btn btn-primary btn-lg " %>
+	<%= link_to '10.8', mac3_path, class: "btn btn-primary btn-lg " %>
+	<%= link_to '10.7', mac3_path, class: "btn btn-primary btn-lg " %>
+	<%= link_to '10.6', mac3_path, class: "btn btn-primary btn-lg " %>
+	<%= link_to '10.5 o menor', mac2_path, class: "btn btn-primary btn-lg " %>
+	
+</center>
+
+</div>
+
+
+
