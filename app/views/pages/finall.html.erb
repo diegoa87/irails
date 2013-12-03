@@ -1,29 +1,24 @@
-<div class="jumbotron" >
-	<div class="row">
-		<div class="col-md-5 col-md-offset-1">
-			<h1> Lo hiciste master! </h1>
+<div class="row">
+	<div class="col-md-4 col-md-offset-1">
+		<h1> Lo hiciste master! </h1>
 
-			<img src="success-kid.jpg">
-		</div>
-
-		<div class="col-md-5 col-md-offset-1">
-			<h2 style=" padding-top:60px"> <strong > Si estás siguiendo el taller  de <%= link_to "One Month/En 1 Mes", "http://www.en1mes.com/"%> </strong> haz click <%= link_to "aquí", "http://www.onemonth.cl/workshops/16"%> para continuar construyendo tu aplicación web </h2>
-			<h3> En caso contrario te contamos que: </h3>
-				<p style="padding-top: 20px"> <span class="glyphicon glyphicon-thumbs-up"></span> <img src= "/assets/logo.png"> <%= link_to "En 1 Mes", "http://www.en1mes.com/"%> te enseña paso a paso como construir una aplicación web en menos de un mes.</p>
-				
-				<p style="padding-top: 20px"><span class="glyphicon glyphicon-thumbs-up"></span>
-				Aprenderás contruyendo tu aplicación web además de Rails, HTML5, avaScript, SQL Databases, Git, Heroku y todas las últimas tecnologías. <%=link_to "Más información aquí","http://www.en1mes.com/"%>. 
-				
-				</p>
-
-			
-			<p style="padding-top: 20px"> <span class="glyphicon glyphicon-stop"></span>Otras opciones para aprender son:
-				</p>
-<p>
-				<%=link_to " RailsCasts","http://railscasts.com/"%>, <%=link_to "RailsGuides","http://guides.rubyonrails.org/"%>, <%=link_to "Code Academy","http://www.codecademy.com/"%>, <%=link_to "Code.org","http://code.org/"%>,<%=link_to "General Assembly","https://generalassemb.ly/"%>, <%=link_to "Ruby and Rails tutorial de Michael Hartl","http://ruby.railstutorial.org/ruby-on-rails-tutorial-book"%>, <%=link_to "Code School","https://www.codeschool.com/"%>
-
-			</p>
-		</div>
+		<img src="success-kid.jpg">
 	</div>
-	
+
+	<div class="col-md-5 col-md-offset-1" style="font-size:140%">
+		<h2>  Quieres aprender más, sigue en el taller <%= link_to "En 1 Mes", "http://www.en1mes.com/"%> </h2>
+
+			<p style="padding-top: 20px"><span class="glyphicon glyphicon-thumbs-up"></span>
+			Aprenderás contruyendo tu aplicación web además de Rails.
+			<ul>
+				<li> HTML5 </li> 
+				<li> javaScript </li> 
+				<li> SQL Databases </li> 
+				<li> Git </li> 
+				<li> Heroku y todas las últimas tecnologías. </li>
+				<%=link_to "Más información aquí","http://www.en1mes.com/"%>. 
+			
+			</p>
+	</div>
 </div>
+	

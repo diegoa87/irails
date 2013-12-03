@@ -1,0 +1,21 @@
+%h1 Instalando Rails
+%ol
+  %li
+    Primero que todo debes: #{link_to "Descargar RailsInstaller", "railsinstaller-3.0.0.exe"}
+    - if false
+      ESTO ES UN COMENTARIO HASTA EL END
+      %li
+        Ingresa a: #{link_to 'www.railsinstaller.com', "http://www.railsinstaller.com/", target:"_blank"} y escoge versión de windows de más a la izquierda.
+      <a href= "http://www.railsinstaller.com/" , target="_blank" >
+      %img{:src => "irails.png"}
+    %li Luego de que se ha descargado totalmente el archivo, dale doble click para abrirlo.
+    %li
+      Dale click "Next" a todos los pasos, esta bien dejar la configuración por defecto.
+    %img{:src => "setup.png"}
+      %li
+        Cuando se te solicite,  escribe tu nombre y correo electrónico.
+        (No te preocupes, nadie verá estos datos por lo No te enviaran SPAM).
+.row
+  %center
+    = link_to 'Atrás', elige_path, class: "btn btn-primary btn-lg "
+    = link_to 'Siguiente', win_2_path, class: "btn btn-primary btn-lg"
