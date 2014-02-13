@@ -1,20 +1,42 @@
 
 <h1> Instalar Homebrew</h1>
 
-<p>En tu terminal escribe:</p>
+<p>1- En tu terminal escribe:</p>
 
 <div class="well well-sm " style="color: black">ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"</div>
 
-<p style= "font-size: 12px">Nota: Si lo anterior no funciona, anda a: ( <%= link_to "https://github.com/mxcl/homebrew/wiki/installation", "https://github.com/mxcl/homebrew/wiki/installation" %>) y sigue las instrucciones<p>
-
-<p>Para verificar tu instalación, en el Terminal escribe:</p>
+<p>2- Para verificar tu instalación, en el Terminal escribe:</p>
 
 <div class="well well-sm " style="color: black">brew -v</div>
 
 <p>Resultado esperado:</p>
 
 <p>Homebrew 0.9.X</p>
+<br>
+<p>3- Para asegurar que está todo OK con Homebrew, escribe en el terminal:</p>
+<div class="well well-sm " style="color: black">brew doctor</div>
+<p style="margin-left: 20px">Si te dice que debes correr la actualización de brew hazlo, brew update</p>
+<hr>
 
+<div style="margin-left: 30px">
+
+<p> Si te sale un error lo más problable es que sea uno de éstos. Sino no te sale ningún error avanza tranquilamente ;)</p> 
+	
+	
+
+
+
+
+<p> <strong>Error típico n°1:</strong>  “No such file or directory - /usr/local/Cellar”</p>
+<p >Si tienes ese error escribe en el terminal:</p>
+<div class="well well-sm " style="color: black margin-left: 20px">cd
+sudo mkdir /usr/local/Cellar</div>
+<p >Cuando te pida, escribe tu clave de login y presiona enter(no se verá lo que escribes) </p>
+<p ><strong>Error típico n°2:</strong>  /usr/local/Library/brew.rb:37: uninitialized constant OS (NameError)</p>
+<p >Si te sucede eso, escribe en el terminal:</p>
+<div class="well well-sm " style="color: black">sudo chown -R $USER /usr/local</div>
+
+</div>
 <center>
 	<%= link_to 'Atrás', mac1_path, class: "btn btn-primary btn-lg" %>
 	<%= link_to 'Siguiente', git_path, class: "btn btn-primary btn-lg" %>
